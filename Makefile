@@ -1,6 +1,8 @@
 #-----------------------------------------------------------------------------------------------------------------------
 # Variables (https://www.gnu.org/software/make/manual/html_node/Using-Variables.html#Using-Variables)
 #-----------------------------------------------------------------------------------------------------------------------
+-include .env
+
 .DEFAULT_GOAL := help
 
 HOSTNAME = registry.terraform.io

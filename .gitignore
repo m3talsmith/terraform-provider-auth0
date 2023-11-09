@@ -39,3 +39,7 @@ override.tf.json
 .vscode/*
 !.vscode/tasks.json
 *.code-workspace
+
+# Exclude environmental variable files
+.env
+.envrc
